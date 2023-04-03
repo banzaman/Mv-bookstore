@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => (
-  <div className="navbar">
+  <div className="navbar gaps">
     <h1>Bookstore CMS</h1>
-    <ul>
+    <ul className="gaps">
       <li><Link to="/">BOOKS</Link></li>
       <li><Link to="/categories">CATEGORIES</Link></li>
     </ul>

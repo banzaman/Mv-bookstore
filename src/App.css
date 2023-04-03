@@ -18,14 +18,17 @@ body {
   background-color: var(--body);
 }
 
+.gaps{
+  grid-gap: 40px;
+  gap: 40px;
+}
+
 .navbar {
   padding: 24px 4%;
   background-color: var(--white);
   border-bottom: 1px solid var(--border);
   display: flex;
   align-items: center;
-  grid-gap: 40px;
-  gap: 40px;
 }
 
 .navbar h1 {
@@ -39,8 +42,6 @@ body {
   display: flex;
   flex-grow: 1;
   list-style-type: none;
-  grid-gap: 40px;
-  gap: 40px;
 }
 
 .navbar li a {
