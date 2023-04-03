@@ -72,6 +72,16 @@ Clone this repository to your desired folder:
 
 I do recommend this method given it is easier, but if you want you can make this process by running commands on the Git Bash terminal.
 
+### Install
+
+After cloning the repo you need to install de dependencies.
+- Run this in the project folder (npm install).
+
+
+### Usage
+
+Once the project is installed you only need to run the script (npm run build  ->  npm run start).
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHOR -->
