@@ -4,10 +4,10 @@ import PropTypes from 'prop-types';
 // Display incoming books
 const DisplayBooks = ({ books, handleRemoveBook }) => (
   <div className="books-container">
-    <ul className="flex">
+    <ul className="flex column">
       {books.map((book) => (
         <li key={`${book.title}-${book.author}`} className="book flex">
-          <div className="books-info flex">
+          <div className="books-info flex column">
             <h4 className="book-category">{book.category}</h4>
             <h2 className="book-title">{book.title}</h2>
             <h6 className="book-author">{book.author}</h6>
@@ -28,7 +28,7 @@ const DisplayBooks = ({ books, handleRemoveBook }) => (
               <p className="completed">Completed</p>
             </div>
             <div className="progress-divider" />
-            <div className="progress-chapter-container flex">
+            <div className="progress-chapter-container flex column">
               <div className="current-chapter-container">
                 <p className="current-chapter-label">CURRENT CHAPTER</p>
                 <p className="current-chapter">Chapter 17</p>
