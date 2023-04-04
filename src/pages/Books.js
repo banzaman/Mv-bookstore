@@ -54,7 +54,7 @@ const Books = () => {
       <div className="horizontal-divider" />
       {/* Render the form for adding a new book */}
       <h2 className="form-title">ADD NEW BOOK</h2>
-      <form>
+      <form className="flex">
         <input type="text" name="title" className="input" id="titleInput" placeholder="Book title" />
         <input type="text" name="author" className="input" id="authorInput" placeholder="Book author" />
         <button type="submit" className="button-form" onClick={handleAddBook}>ADD BOOK</button>
